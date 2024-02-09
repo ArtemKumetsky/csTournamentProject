@@ -1,0 +1,79 @@
+.users {
+  position: relative;
+  @include column;
+  height: 1324px;
+}
+.users-background {
+  position: absolute;
+  background: url(../resources/users_background.png) center no-repeat;
+  width: 1920px;
+  height: 1324px;
+  left: -13%;
+  z-index: -1;
+}
+.users-content {
+  position: absolute;
+  right: 0;
+  bottom: 130px;
+}
+.users-content-title {
+  color: white;
+  @include center_column;
+  font-weight: 700;
+  h2{
+    font-size: 32px;
+  }
+  div{
+    font-size: 25px;
+    margin-bottom: 1%;
+  }
+}
+#timer {
+  color: white;
+}
+.users-content-table {
+  color: white;
+  width: 652px;
+  height: 542px;
+  border: 1px solid #F3A917;
+  background: #292A2F;
+  font-size: 20px;
+  td{
+      border: 1px solid #F3A917;
+  }
+  tr {
+    transition: 0.3s all;
+  }
+  tr:hover {
+    background: white;
+    color: black;
+    transition:0.3s all;
+  }
+}
+
+.table-first-col {
+  background: #F3A917;
+  color: black;
+}
+.table-numb {
+  text-align: center;
+}
+.table-name {
+  padding-left:20px;
+  font-weight: 500;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.users-content-hrefs {
+  margin-top: 50px;
+  @include around;
+  a{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+  }
+}

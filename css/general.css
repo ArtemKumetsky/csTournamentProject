@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  position: absolute;
+  left: 10%;
+  top: 0;
+}
+
+main, header {
+  width: 80%;
+  margin: auto;
+}
+
+.active-slide {
+  background: #F3A917 !important;
+}
+
+.btn {
+  border: 1px solid #F3A917;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-first {
+  color: black;
+  background: #F3A917;
+}
+
+.btn-second {
+  color: white;
+  background: none;
+}
+
+/*# sourceMappingURL=general.css.map */

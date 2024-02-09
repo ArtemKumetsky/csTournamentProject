@@ -1,0 +1,1025 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Front-end test</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+
+<header>
+    <div class="header-content" id="header">
+        <div class="social">
+            <a href="https://twitter.com">
+                <img src="resources/header-icons/icon-twitter.png" alt="icon-twitter">
+            </a>
+            <a href="https://www.twitch.tv">
+                <img src="resources/header-icons/icon-twitch.png" alt="icon-twitch">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="resources/header-icons/icon-facebook.png" alt="icon-facebook">
+            </a>
+            <a href="https://vk.com/">
+                <img src="resources/header-icons/icon-vk.png" alt="icon-vk">
+            </a>
+        </div>
+    </div>
+
+</header>
+<main>
+
+    <div class="links">
+        <a href="#header">
+            <div class="slider-marker link-marker-first active-slide"></div>
+        </a>
+        <a href="#results">
+            <div class="slider-marker link-marker-second"></div>
+        </a>
+        <a href="#stages">
+            <div class="slider-marker link-marker-third"></div>
+        </a>
+        <a href="#users">
+            <div class="slider-marker link-marker-fourth"></div>
+        </a>
+    </div>
+
+    <!--  first module  -->
+
+
+    <div class="cover">
+        <div class="cover-img">
+            <img src="resources/cover/cover-background.png" alt="background" class="f-bg cover-active">
+            <img src="resources/cover/cover-background2.png" alt="background" class="s-bg cover-hidden">
+            <img src="resources/cover/cover-background3.png" alt="background" class="t-bg cover-hidden">
+            <div class="slider-markers cover-slider-markers">
+                <div class="slider-marker cover-slider-marker cover-slider-marker-first active-slide"></div>
+                <div class="slider-marker cover-slider-marker cover-slider-marker-second"></div>
+                <div class="slider-marker cover-slider-marker cover-slider-marker-third"></div>
+            </div>
+        </div>
+        <div class="cover-content">
+            <img src="resources/cover/cover-img-pubg.png" alt="pubg-logo">
+            <h1>
+                ESL Pro League CSGO
+            </h1>
+            <h3>
+                League CS:GO is the new online league in Counter-Strike: Global Offensive,
+                <br>
+                with $100,000 total prize pool. 16 teams from Europe and the CIS will take
+                <br>
+                part in the League, with 4 teams going to League through open qualifiers
+            </h3>
+        </div>
+        <div class="cover-btns">
+            <button class="btn btn-first cover-btn">READ ANNOUNCMENT</button>
+            <button class="btn btn-second cover-btn">GET TICKETS</button>
+        </div>
+    </div>
+
+
+    <!-- second module -->
+
+
+    <div class="results" id="results">
+        <h2>Расписание и результаты</h2>
+        <div class="results-btns">
+            <button class="btn results-btn m-btn active-btn" onclick="results_change('m')">Matches</button>
+            <button class="btn results-btn b-btn" onclick="results_change('b')">Battles</button>
+        </div>
+        <div class="results-blocks">
+
+            <div class="results-blocks-g1 slider-el results-active-slide">
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Asia Minor: Play-Off
+                        </span>
+                        <div class="result-blocks-el-title-time">
+                            <span class="results-date">
+                                29 Oct
+                            </span>
+                            <span class="results-time">
+                                19:00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/results-logo5.png" alt="first-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                            <img src="resources/results/results-logo6.png" alt="second-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-second">
+                        </div>
+                        <div class="results-blocks-el-content-team">
+                            <div class="results-team first-team">
+                                <h3>Jenny Bell</h3>
+                                <div class="team-koef">
+                                    3.22
+                                </div>
+                            </div>
+                            <div class="results-team second-team">
+                                <h3>Arlene Robertson</h3>
+                                <div class="team-koef">
+                                    53.22
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Starts in: 5 hours 39 min • Bо 3
+                    </span>
+                            <img src="resources/results/gg-logo.png" alt="bet-logo" class="results-blocks-el-start-betlogo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Asia Minor: Play-Off
+                        </span>
+                        <div class="result-blocks-el-title-time">
+                            <span class="results-date">
+                                29 Oct
+                            </span>
+                            <span class="results-time">
+                                19:00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/results-logo1.png" alt="first-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                            <img src="resources/results/results-logo2.png" alt="second-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-second">
+                        </div>
+                        <div class="results-blocks-el-content-team">
+                            <div class="results-team first-team">
+                                <h3>Regina Watson</h3>
+                                <div class="team-koef">
+                                    3.22
+                                </div>
+                            </div>
+                            <div class="results-team second-team">
+                                <h3>Kathryn Jones</h3>
+                                <div class="team-koef">
+                                    53.22
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Starts in: 5 hours 39 min • Bо 3
+                    </span>
+                            <img src="resources/results/gg-logo.png" alt="bet-logo" class="results-blocks-el-start-betlogo">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Asia Minor: Play-Off
+                        </span>
+                        <div class="result-blocks-el-title-time">
+                            <span class="results-date">
+                                29 Oct
+                            </span>
+                            <span class="results-time">
+                                19:00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/results-logo3.png" alt="first-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                            <img src="resources/results/results-logo4.png" alt="second-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-second">
+                        </div>
+                        <div class="results-blocks-el-content-team">
+                            <div class="results-team first-team">
+                                <h3>Ricardo Hawkins</h3>
+                                <div class="team-koef">
+                                    3.22
+                                </div>
+                            </div>
+                            <div class="results-team second-team">
+                                <h3>Bruce Simmons</h3>
+                                <div class="team-koef">
+                                    53.22
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Starts in: 5 hours 39 min • Bо 3
+                    </span>
+                            <img src="resources/results/gg-logo.png" alt="bet-logo" class="results-blocks-el-start-betlogo">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Asia Minor: Play-Off
+                        </span>
+                        <div class="result-blocks-el-title-time">
+                            <span class="results-date">
+                                29 Oct
+                            </span>
+                            <span class="results-time">
+                                19:00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/results-logo5.png" alt="first-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                            <img src="resources/results/results-logo6.png" alt="second-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-second">
+                        </div>
+                        <div class="results-blocks-el-content-team">
+                            <div class="results-team first-team">
+                                <h3>Jenny Bell</h3>
+                                <div class="team-koef">
+                                    3.22
+                                </div>
+                            </div>
+                            <div class="results-team second-team">
+                                <h3>Arlene Robertson</h3>
+                                <div class="team-koef">
+                                    53.22
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Starts in: 5 hours 39 min • Bо 3
+                    </span>
+                            <img src="resources/results/gg-logo.png" alt="bet-logo" class="results-blocks-el-start-betlogo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="results-blocks-g2 slider-el results-hidden-slide">
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Asia Minor: Play-Off
+                        </span>
+                        <div class="result-blocks-el-title-time">
+                            <span class="results-date">
+                                29 Oct
+                            </span>
+                            <span class="results-time">
+                                19:00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/results-logo5.png" alt="first-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                            <img src="resources/results/results-logo6.png" alt="second-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-second">
+                        </div>
+                        <div class="results-blocks-el-content-team">
+                            <div class="results-team first-team">
+                                <h3>Jenny Bell</h3>
+                                <div class="team-koef">
+                                    3.22
+                                </div>
+                            </div>
+                            <div class="results-team second-team">
+                                <h3>Arlene Robertson</h3>
+                                <div class="team-koef">
+                                    53.22
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Starts in: 5 hours 39 min • Bо 3
+                    </span>
+                            <img src="resources/results/gg-logo.png" alt="bet-logo" class="results-blocks-el-start-betlogo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Asia Minor: Play-Off
+                        </span>
+                        <div class="result-blocks-el-title-time">
+                            <span class="results-date">
+                                29 Oct
+                            </span>
+                            <span class="results-time">
+                                19:00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/results-logo1.png" alt="first-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                            <img src="resources/results/results-logo2.png" alt="second-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-second">
+                        </div>
+                        <div class="results-blocks-el-content-team">
+                            <div class="results-team first-team">
+                                <h3>Regina Watson</h3>
+                                <div class="team-koef">
+                                    3.22
+                                </div>
+                            </div>
+                            <div class="results-team second-team">
+                                <h3>Kathryn Jones</h3>
+                                <div class="team-koef">
+                                    53.22
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Starts in: 5 hours 39 min • Bо 3
+                    </span>
+                            <img src="resources/results/gg-logo.png" alt="bet-logo" class="results-blocks-el-start-betlogo">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Asia Minor: Play-Off
+                        </span>
+                        <div class="result-blocks-el-title-time">
+                            <span class="results-date">
+                                29 Oct
+                            </span>
+                            <span class="results-time">
+                                19:00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/results-logo3.png" alt="first-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                            <img src="resources/results/results-logo4.png" alt="second-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-second">
+                        </div>
+                        <div class="results-blocks-el-content-team">
+                            <div class="results-team first-team">
+                                <h3>Ricardo Hawkins</h3>
+                                <div class="team-koef">
+                                    3.22
+                                </div>
+                            </div>
+                            <div class="results-team second-team">
+                                <h3>Bruce Simmons</h3>
+                                <div class="team-koef">
+                                    53.22
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Starts in: 5 hours 39 min • Bо 3
+                    </span>
+                            <img src="resources/results/gg-logo.png" alt="bet-logo" class="results-blocks-el-start-betlogo">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Asia Minor: Play-Off
+                        </span>
+                        <div class="result-blocks-el-title-time">
+                            <span class="results-date">
+                                29 Oct
+                            </span>
+                            <span class="results-time">
+                                19:00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/results-logo5.png" alt="first-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                            <img src="resources/results/results-logo6.png" alt="second-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-second">
+                        </div>
+                        <div class="results-blocks-el-content-team">
+                            <div class="results-team first-team">
+                                <h3>Jenny Bell</h3>
+                                <div class="team-koef">
+                                    3.22
+                                </div>
+                            </div>
+                            <div class="results-team second-team">
+                                <h3>Arlene Robertson</h3>
+                                <div class="team-koef">
+                                    53.22
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Starts in: 5 hours 39 min • Bо 3
+                    </span>
+                            <img src="resources/results/gg-logo.png" alt="bet-logo" class="results-blocks-el-start-betlogo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="results-blocks-g3 slider-el results-hidden-slide">
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Asia Minor: Play-Off
+                        </span>
+                        <div class="result-blocks-el-title-time">
+                            <span class="results-date">
+                                29 Oct
+                            </span>
+                            <span class="results-time">
+                                19:00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/results-logo5.png" alt="first-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                            <img src="resources/results/results-logo6.png" alt="second-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-second">
+                        </div>
+                        <div class="results-blocks-el-content-team">
+                            <div class="results-team first-team">
+                                <h3>Jenny Bell</h3>
+                                <div class="team-koef">
+                                    3.22
+                                </div>
+                            </div>
+                            <div class="results-team second-team">
+                                <h3>Arlene Robertson</h3>
+                                <div class="team-koef">
+                                    53.22
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Starts in: 5 hours 39 min • Bо 3
+                    </span>
+                            <img src="resources/results/gg-logo.png" alt="bet-logo" class="results-blocks-el-start-betlogo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="results-battles-blocks-g1 slider-el results-hidden-slide">
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Group Stage
+                        </span>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/Group-stage.png" alt="first-battles-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                        </div>
+                        <div class="results-battles-blocks-el-content-team">
+                            <div class="results-battles-blocks-team">
+                                <h3>Group A</h3>
+                                <h3>Group B</h3>
+                            </div>
+                            <div class="battles-match">
+                                MATCH #1
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Map: Erangel
+                    </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Group Stage
+                        </span>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/Group-stage.png" alt="first-battles-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                        </div>
+                        <div class="results-battles-blocks-el-content-team">
+                            <div class="results-battles-blocks-team">
+                                <h3>Group A</h3>
+                                <h3>Group B</h3>
+                            </div>
+                            <div class="battles-match">
+                                MATCH #2
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Map: Erangel
+                    </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Group Stage
+                        </span>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/Group-stage.png" alt="first-battles-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                        </div>
+                        <div class="results-battles-blocks-el-content-team">
+                            <div class="results-battles-blocks-team">
+                                <h3>Group A</h3>
+                                <h3>Group B</h3>
+                            </div>
+                            <div class="battles-match">
+                                MATCH #3
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Map: Erangel
+                    </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Group Stage
+                        </span>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/Group-stage.png" alt="first-battles-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                        </div>
+                        <div class="results-battles-blocks-el-content-team">
+                            <div class="results-battles-blocks-team">
+                                <h3>Group A</h3>
+                                <h3>Group B</h3>
+                            </div>
+                            <div class="battles-match">
+                                MATCH #4
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Map: Erangel
+                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="results-battles-blocks-g2 slider-el results-hidden-slide">
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Group Stage
+                        </span>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/Group-stage.png" alt="first-battles-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                        </div>
+                        <div class="results-battles-blocks-el-content-team">
+                            <div class="results-battles-blocks-team">
+                                <h3>Group A</h3>
+                                <h3>Group B</h3>
+                            </div>
+                            <div class="battles-match">
+                                MATCH #5
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Map: Erangel
+                    </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Group Stage
+                        </span>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/Group-stage.png" alt="first-battles-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                        </div>
+                        <div class="results-battles-blocks-el-content-team">
+                            <div class="results-battles-blocks-team">
+                                <h3>Group A</h3>
+                                <h3>Group B</h3>
+                            </div>
+                            <div class="battles-match">
+                                MATCH #6
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Map: Erangel
+                    </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Group Stage
+                        </span>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/Group-stage.png" alt="first-battles-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                        </div>
+                        <div class="results-battles-blocks-el-content-team">
+                            <div class="results-battles-blocks-team">
+                                <h3>Group A</h3>
+                                <h3>Group B</h3>
+                            </div>
+                            <div class="battles-match">
+                                MATCH #7
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Map: Erangel
+                    </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Group Stage
+                        </span>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/Group-stage.png" alt="first-battles-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                        </div>
+                        <div class="results-battles-blocks-el-content-team">
+                            <div class="results-battles-blocks-team">
+                                <h3>Group A</h3>
+                                <h3>Group B</h3>
+                            </div>
+                            <div class="battles-match">
+                                MATCH #8
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Map: Erangel
+                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="results-battles-blocks-g3 slider-el results-hidden-slide">
+                <div class="result-blocks-el">
+                    <div class="watch-btn">
+                        <button>
+                            <img src="resources/results/play-button-arrow.png" alt="play">
+                            WHATCH LIVE
+                        </button>
+                    </div>
+                    <div class="result-blocks-el-title">
+                        <span class="result-blocks-el-title-text">
+                            Group Stage
+                        </span>
+                    </div>
+                    <div class="results-blocks-el-content">
+                        <div class="results-blocks-el-content-logo">
+                            <img src="resources/results/Group-stage.png" alt="first-battles-logo"
+                                 class="results-blocks-el-content-logo results-blocks-el-content-logo-first">
+                        </div>
+                        <div class="results-battles-blocks-el-content-team">
+                            <div class="results-battles-blocks-team">
+                                <h3>Group A</h3>
+                                <h3>Group B</h3>
+                            </div>
+                            <div class="battles-match">
+                                MATCH #9
+                            </div>
+                        </div>
+                        <div class="results-blocks-el-start">
+                    <span>
+                        Map: Erangel
+                    </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="results-slider">
+            <div class="results-slider-btn results-slider-btn-left" onclick="slide_results('left')">
+                <img src="resources/results/arrow-left.png" alt="left-arrow">
+            </div>
+            <div class="slider-markers results-slider-markers">
+                <div class="slider-marker results-slider-marker results-slider-marker-first active-slide" id="rc1"></div>
+                <div class="slider-marker results-slider-marker results-slider-marker-second" id="rc2"></div>
+                <div class="slider-marker results-slider-marker results-slider-marker-third" id="rc3"></div>
+            </div>
+            <div class="results-slider-btn results-slider-btn-right" onclick="slide_results('right')">
+                <img src="resources/results/arrow-right.png" alt="right-arrow">
+            </div >
+        </div>
+    </div>
+
+
+    <!--  third module  -->
+
+
+    <div class="stages" id="stages">
+        <div class="stages-background"></div>
+        <div class="stages-title">
+            <h2>
+                Этапы проведения
+            </h2>
+            <span>
+                The path to every Major begins with the open qualifiers
+                for the <br> regional Minor Championships, spanning Europe,
+                CIS, Americas,<br> and Asia. <a href="">Here is</a> the schedule of <br> every
+                qualifying stage of StarLadder Major.
+            </span>
+        </div>
+        <div class="stages-content">
+            <div class="stages-content-elements">
+                <div class="stages-content-element stages-content-element-second">
+                    <div class="stages-content-element stages-content-element-first">
+                        <img src="resources/stages/1st.png" alt="trophy">
+                        <div class="stages-content-element-text">
+                    <span class="stages-content-element-text-strong">
+                        Registration
+                    </span>
+                            <span>
+                        29 sep, 19:00 – 20 nov, 10:00
+                    </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="stages-content-vector">
+                    <img src="resources/stages/vector.png" alt="vector">
+                </div>
+                <div class="stages-content-element stages-content-element-second">
+                    <img src="resources/stages/2nd.png" alt="trophy">
+                    <div class="stages-content-element-text">
+                    <span>
+                        Check-in
+                    </span>
+                        <span>
+                        29 sep, 19:00 – 20 nov, 10:00
+                    </span>
+                    </div>
+                </div>
+                <div class="stages-content-vector">
+                    <img src="resources/stages/vector.png" alt="vector">
+                </div>
+                <div class="stages-content-element stages-content-element-third">
+                    <img src="resources/stages/3rd.png" alt="trophy">
+                    <div class="stages-content-element-text">
+                    <span>
+                        Scheduling:
+                    </span>
+                        <span>
+                        29 sep, 19:00 – 20 nov, 10:00
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <button></button>
+        </div>
+    </div>
+
+
+    <!--  fourth module  -->
+
+
+    <div class="users">
+        <div class="users-background"></div>
+        <div class="users-content" id="users">
+            <div class="users-content-title">
+                <h2>Зарегистрировано: 24</h2>
+                <div>
+                    Осталось: <span id="timer"></span>
+                </div>
+            </div>
+            <div>
+                <table class="users-content-table" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="table-numb table-first-col">#</td>
+                        <td class="table-name table-first-col">Team</td>
+                    </tr>
+                    <tr>
+                        <td class="table-numb">353</td>
+                        <td class="table-name"><img src="resources/UA_flag.png" alt="UA_flag"><a href="">Dianne Russel</a></td>
+                    </tr>
+                    <tr>
+                        <td class="table-numb">2</td>
+                        <td class="table-name"><img src="resources/UA_flag.png" alt="UA_flag"><a href="">Dianne Russel</a></td>
+                    </tr>
+                    <tr>
+                        <td class="table-numb">3</td>
+                        <td class="table-name"><img src="resources/UA_flag.png" alt="UA_flag"><a href="">Dianne Russel</a></td>
+                    </tr>
+                    <tr>
+                        <td class="table-numb">45</td>
+                        <td class="table-name"><img src="resources/UA_flag.png" alt="UA_flag"><a href="">Dianne Russel</a></td>
+                    </tr>
+                    <tr>
+                        <td class="table-numb">65</td>
+                        <td class="table-name"><img src="resources/UA_flag.png" alt="UA_flag"><a href="">Dianne Russel</a></td>
+                    </tr>
+                    <tr>
+                        <td class="table-numb">43</td>
+                        <td class="table-name"><img src="resources/UA_flag.png" alt="UA_flag"><a href="">Dianne Russel</a></td>
+                    </tr>
+                    <tr>
+                        <td class="table-numb">67</td>
+                        <td class="table-name"><img src="resources/UA_flag.png" alt="UA_flag"><a href="">Dianne Russel</a></td>
+                    </tr>
+                    <tr>
+                        <td class="table-numb">1</td>
+                        <td class="table-name"><img src="resources/UA_flag.png" alt="UA_flag"><a href="">Dianne Russel</a></td>
+                    </tr>
+                    <tr>
+                        <td class="table-numb">78</td>
+                        <td class="table-name"><img src="resources/UA_flag.png" alt="UA_flag"><a href="">Dianne Russel</a></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="users-content-hrefs">
+                <a href="">Support</a>
+                <a href="">Rules</a>
+                <a href="">FAQ</a>
+            </div>
+        </div>
+    </div>
+
+
+</main>
+<script src="script/jQuery.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>

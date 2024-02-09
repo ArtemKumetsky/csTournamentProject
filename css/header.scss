@@ -1,0 +1,18 @@
+header {
+  position: absolute;
+  left: 10%;
+  top: 0;
+}
+.header-content {
+  width: 50%;
+  height: 94px;
+  border-bottom: 1px solid #F3A917;
+}
+.social {
+  @include between();
+  align-items: center;
+  height: 85%;
+  width: 30%;
+  margin:auto 0 0 auto;
+}
+

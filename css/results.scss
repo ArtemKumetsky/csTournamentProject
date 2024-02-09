@@ -1,0 +1,204 @@
+.results {
+  margin-top: 15%;
+
+  h2 {
+    color: white;
+  }
+}
+
+.results-btns {
+  margin-top: 3%;
+  border-top: 1px solid #F3A917;
+  padding: 0;
+  display: flex;
+}
+
+.results-btn {
+  width: 152px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  background: black;
+  color: white;
+}
+
+.results-blocks {
+  margin-top: 5%;
+  height: 350px;
+  @include between();
+  flex-flow: row;
+  transition: 1s all;
+}
+.slider-el {
+  display: flex;
+}
+.result-blocks-el {
+  width: 350px;
+  height: 341px;
+  background: #292A2F;
+  border-radius: 10px;
+}
+
+.result-blocks-el-title {
+  border-bottom: 1px solid #F3A917;
+  width: 80%;
+  margin: auto;
+  height: 90px;
+  @include center();
+  color: white;
+}
+
+.result-blocks-el-title-text {
+  font-size: 14px;
+}
+
+.result-blocks-el-title-time {
+  @include center_column;
+  margin-left: auto;
+}
+
+.results-date {
+  font-size: 12px;
+}
+
+.results-time {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.results-blocks-el-content {
+  width: 80%;
+  margin: 36px auto auto auto;
+}
+
+.results-blocks-el-content-logo {
+  width: 120px;
+  @include between();
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.results-blocks-el-content-team {
+  margin-top: 15px;
+}
+.results-battles-blocks-el-content-team:not(.results-battles-blocks-team) {
+  @include between;
+  align-items: center;
+}
+.active-btn {
+  background: #F3A917;
+  color: black;
+}
+.results-team {
+  @include between();
+  flex-flow: row;
+  align-items: center;
+  height: 40px;
+
+  h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.results-battles-blocks-team {
+  width: 50%;
+  h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+.battles-match {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid #F3A917;
+  height: 26px;
+  width: 40%;
+  @include center;
+}
+.team-koef {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid #F3A917;
+  width: 55px;
+  height: 26px;
+  @include center;
+}
+
+.results-blocks-el-start {
+  @include between;
+  align-items: center;
+  margin-top: 15px;
+
+  span {
+    font-size: 12px;
+    color: #757C84;
+  }
+}
+
+.watch-btn {
+  display: none;
+  position: absolute;
+  width: auto;
+  height: 341px;
+  background:rgba(0,0,0, 0.7);
+  button{
+    width: 166px;
+    height: 40px;
+    @include center;
+    color: white;
+    background: #F3A917;
+    border: none;
+    cursor: pointer;
+  }
+  img{
+    padding: 5px;
+  }
+}
+
+.result-blocks-el:hover .watch-btn {
+  @include center;
+}
+.results-slider {
+  @include center;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  margin: 5% auto auto auto;
+}
+.results-slider-btn {
+  width: 85px;
+  height: 85px;
+  border: 1px solid #F3A917;
+  border-radius:100%;
+  @include center;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+.results-slider-btn:hover{
+  opacity: 0.5;
+  transition: 0.3s opacity;
+}
+.results-slider-marker{
+  transition: 0.5s background;
+}
+.results-active-slide {
+  display: flex;
+}
+.results-hide-slide {
+  opacity: 0;
+  transition: 300ms all;
+}
+.results-hidden-slide {
+  display: none;
+}
+
+
+

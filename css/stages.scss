@@ -1,0 +1,62 @@
+.stages {
+  background: #F3A917;
+  height: 519px;
+  margin-top: 5%;
+  position: relative;
+  display: flex;
+}
+.stages-background {
+  background: #F3A917;
+  position: absolute;
+  left: -13%;
+  width: 1920px;
+  height: 519px;
+  z-index: -1;
+}
+.stages-title {
+  width: 45%;
+  height: 100%;
+  @include column;
+  justify-content: center;
+  h2{
+    font-weight:700;
+    font-size: 32px;
+  }
+  span{
+    font-weight: 500;
+    font-size: 18px;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+}
+.stages-content {
+  @include center_column;
+  button{
+    border: none;
+    width: 341px;
+    height: 60px;
+    background: url(../resources/stages/registered.png) center no-repeat;
+    margin-top: 30px;
+    transition: 0.2s background;
+  }
+  button:hover{
+    background: url(../resources/stages/registered_hovered.png) center no-repeat;
+  }
+}
+.stages-content-elements{
+  @include center;
+  flex-flow: row;
+}
+.stages-content-element {
+  @include center;
+  flex-flow: column;
+}
+.stages-content-element-text {
+  @include column;
+  margin-top: 30px;
+}
+.stages-content-element-text-strong{
+  font-weight: 700;
+}
